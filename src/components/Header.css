@@ -1,0 +1,57 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #5F3696;;
+  }
+  
+  #leftText {
+    font-weight: bold;
+    margin-left: 4.5rem; 
+    color: #F1C947;
+    font-size: large;
+  }
+  
+  #buttonContainer {
+    position: relative;
+    top: 2px;
+    display: flex;
+    margin-right: 5rem;
+  }
+  
+  .button {
+    margin-left: 10px;
+    margin-right: 20px; 
+    border: 1px solid #F1C947;;
+    border-bottom: 5px solid #F1C947;;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-weight: 600;
+    background-color: #5F3696;;
+  }
+
+  #round{
+
+    border-radius: 50%;
+  }
+  
+
+  @media screen and (max-width: 900px) {
+    #leftText {
+      margin-left: 1rem; 
+    }
+    #buttonContainer {
+      position: relative;
+      top: 2px;
+      display: flex;
+      margin-right: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #wallet{
+      display: none;
+    }
+  }
