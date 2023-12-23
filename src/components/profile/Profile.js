@@ -33,7 +33,7 @@ const Profile = () => {
         <div className="text-container">
           <h1>mrtoys.ccd</h1>
           <div style={{display:'flex'}}>
-            <span style={{backgroundColor:'blue', width:' 3rem', textAlign:'center', height:'25px', marginRight:'5px'}}>owner</span>
+            <span id='owner-container' style={{backgroundColor:'#4DA2A9', width:' 3rem', textAlign:'center', height:'25px', marginRight:'5px'}}>owner</span>
             <span>cdcccccccccndajad</span>
             <div className=''>
         <MdContentCopy size={20} fill='white'/>
